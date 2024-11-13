@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    top: 0;
+    position: fixed;
+    left: 0;
+    z-index: 1000;
+    height: 150px;
+   
+    
+}
+#head-text {
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+}
+
+#subhead{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 30px;
+}
+.content {
+   
+   margin-top: 150px;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.intro-title {
+    text-align: center;
+    font-size: 80px;
+    margin: 24px;
+}
+#intro {
+    font-size: 20px;
+    border: 1px solid #000;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+pre{
+            white-space: pre-wrap; 
+            word-wrap: break-word; 
+            overflow-wrap: break-word;
+            line-height: 1.2; 
+            font-family: monospace; 
+            padding: 12px;
+            width: 100%; 
+}
+
+
+
+#logo {
+    background-image: url("/CFC.jpg");
+    top: 0;
+    width: 100%;
+    height: 1110px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#member {
+    background-image: url("/Ảnh-thành-viênjpg.jpg");
+    width: 100%;
+    height: 1110px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#photos {
+    display: flex; /* Bố trí các ảnh theo hàng ngang */
+    justify-content: space-between; /* Chia đều không gian giữa các ảnh */
+    align-items: center; /* Căn giữa các ảnh theo chiều dọc */
+    gap: 10px; /* Khoảng cách giữa các ảnh */
+    flex-wrap: wrap; /* Nếu cần, các ảnh sẽ tự động xuống dòng */
+    
+}
+
+#photos img {
+    width: 30%; /* Điều chỉnh kích thước ảnh sao cho hợp lý */
+    max-height: 300px; /* Giữ tỷ lệ ảnh */
+}
+
+.clust{
+    border-bottom: 10px dashed #000;
+    padding-bottom: 40px;
+}
+
+#form {
+    height:350px;
+    width:90%;
+    border: 3px dashed #000;
+    margin: 0 auto;
+}
+
+.form-info {
+    width: 200px; /* fix cái đống tên ở trước 1 độ dài nhất định để cho 4 ô đằng sau thẳng hàng*/
+}
+
+.form-group {
+  display: flex;
+  margin: 20px;
+  font-size: 20px;
+  align-items: center;
+}
+
+.form-input {
+    width: 100%;
+}
+
+.Check-type {
+    margin-left: 20px;
+    margin-bottom: 15px;
+    transform: scale(2);
+}
+
+.Check-text {
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+#submit-button {
+    margin-left: 20px;
+    margin-top: 10px;
+    transform: scale(1.5);
+    border-radius: 10%;
+}
+
+#footage {
+    background-color: gray;
+    height: 200px;
+    line-height: 1.6;
+    padding: 12px;   
+
+}
+
+
+#footage a {
+    color: #000;
+    text-decoration:wavy;
+}
+
+#footage a:hover{
+    cursor: pointer;
+}
